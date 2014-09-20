@@ -36,7 +36,7 @@ li {
 */
 
 header {
-  background: rgba(0, 0, 0, 0.1);
+  background: #151515 url("../images/sharknado-header.jpg") 0 0;
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
@@ -46,7 +46,7 @@ header {
 header h1 {
   font-size: 30px;
   line-height: 1.5;
-  margin: 0 0 0 -40px;
+  margin: 0 0 0 -600px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #b5e853;
@@ -63,9 +63,11 @@ header h1:before {
 }
 
 header h2 {
+  
   font-size: 18px;
   font-weight: 300;
-  color: #666;
+  color: #b5e853;
+  margin: 0 0 0 -600px;
 }
 
 #downloads .btn {
